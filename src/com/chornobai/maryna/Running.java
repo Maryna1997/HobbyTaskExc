@@ -9,7 +9,7 @@ public class Running extends Hobby {
     }
 
     @Override
-    void tellAboutHobby(int i) throws  HobbyException{
+    void tellAboutHobby(int i) throws  HobbyException {
         System.out.println("Hobby{" +
                 "name='" + name + '\'' +
                 ", age=" + age +

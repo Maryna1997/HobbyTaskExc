@@ -6,7 +6,6 @@ public abstract class Hobby {
     abstract void tellAboutHobby(int i) throws HobbyException;
 
     public Hobby(String name, int age) {
-
         this.name = name;
         this.age = age;
     }
